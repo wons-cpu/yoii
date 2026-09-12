@@ -1,0 +1,28 @@
+{
+  "name": "yoii",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Render pipeline for Yoii movements.",
+  "type": "module",
+  "scripts": {
+    "render:preview": "remotion studio src/remotion/index.ts",
+    "render:video": "remotion render src/remotion/index.ts Movement out/movement.mp4",
+    "render:still": "remotion still src/remotion/index.ts Movement out/movement.png --frame=209",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.524",
+    "zod": "4.5.4"
+  },
+  "devDependencies": {
+    "@remotion/cli": "4.0.524",
+    "@types/react": "18.3.31",
+    "@types/react-dom": "18.3.7",
+    "@types/node": "22.20.2",
+    "typescript": "5.9.3",
+    "vitest": "5.0.0"
+  }
+}

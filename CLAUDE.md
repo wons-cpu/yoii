@@ -30,6 +30,7 @@ These were settled deliberately. Do not re-open them without asking.
 - **Server side rendering, not on device.** The share layout will change often and must not require an app update.
 - **Walking only.** Driving is out of scope for v1.
 - **No song list on the final frame.** A track list makes it look like a Spotify screenshot. The songs already appeared during the video.
+- **Uniform scale when fitting the route to the canvas, not independent X/Y stretch.** Stretching would distort real distances and angles, which breaks the premise that this is a real route rather than a decorative squiggle. Rotating the route so its long axis aligns with the frame (instead of always fitting it upright) is an open option for week 3, once real walks show a range of shapes and it's clear whether that's worth the complexity.
 
 ## Vocabulary
 
@@ -80,6 +81,8 @@ Route color comes from `tracks[uri].colors`, a two color array, applied as a gra
 Route stroke is uniform width, round caps and joins. Start point is a hollow circle in the first phrase's color, end point is filled in the last phrase's color. These two dots are the two i's in the Yoii logo, so keep them visually paired.
 
 Final frame carries: the full route, the movement number in roman numerals, and one meta line of date, city, temperature, and duration. Nothing else. The Yoii mark goes small at the end of the meta line.
+
+A fixed band roughly 180px tall is reserved at the bottom of the frame, above the Instagram safe margin, for the numeral and meta line. The route projects only into the space above that band, by construction, so route and text can never overlap — no collision detection, no fallback, nothing to get wrong as the route's shape changes from one movement to the next. The numeral sits at the top of the band, left-aligned; the meta line sits directly beneath it, left-aligned, with the Yoii mark closing that same row on the right. Both render at full opacity always.
 
 Map tiles are **not** needed this week. Draw the route on the flat background first. The Protomaps basemap lands in week 3.
 

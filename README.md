@@ -3,7 +3,6 @@
 Turn a walk into a record. Yoii tracks your route while you listen on Spotify, then renders the whole thing as a map you can share.
 
 ![demo](docs/demo.gif)
-<!-- TODO: replace with a real capture once the render pipeline produces its first movement -->
 
 ## What it is
 
@@ -25,9 +24,9 @@ The unit names come from sheet music because that is what the finished map ends 
 
 Early. I am building this in the open, roughly a week per layer.
 
-- [ ] Week 1: background location + Spotify polling, produces a valid movement JSON
-- [ ] Week 2: custom dark vector map, route rendering, album color extraction
-- [ ] Week 3: server side video and still rendering
+- [x] Week 1: render pipeline — Remotion renders the sample fixture to an mp4 and a still frame, gif embedded above
+- [ ] Week 2: the app — background location + Spotify polling, produces a valid movement JSON
+- [ ] Week 3: custom dark vector map, Protomaps tiles
 - [ ] Week 4: share flow, logo, onboarding, TestFlight
 
 Nothing is shippable yet. The checkboxes are honest.

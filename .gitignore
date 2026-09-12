@@ -2,6 +2,8 @@ node_modules/
 .expo/
 dist/
 web-build/
+out/
+.remotion/
 *.log
 
 .env
