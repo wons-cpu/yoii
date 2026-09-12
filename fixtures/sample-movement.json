@@ -1,0 +1,180 @@
+{
+  "schema": 1,
+  "id": "mv_sample_0001",
+  "number": 23,
+  "startedAt": "2026-09-05T21:14:03Z",
+  "endedAt": "2026-09-05T21:31:03Z",
+  "tz": "America/New_York",
+  "synthetic": true,
+
+  "path": [
+    [0, 33.78050, -84.39900, 8],
+    [30000, 33.78048, -84.39857, 7],
+    [60000, 33.78051, -84.39814, 9],
+    [90000, 33.78049, -84.39771, 6],
+    [120000, 33.78052, -84.39728, 11],
+    [150000, 33.78050, -84.39685, 7],
+    [180000, 33.78047, -84.39642, 8],
+    [210000, 33.78051, -84.39599, 38],
+    [240000, 33.78050, -84.39556, 9],
+    [270000, 33.78053, -84.39513, 6],
+    [300000, 33.78049, -84.39470, 7],
+    [330000, 33.78050, -84.39427, 10],
+    [360000, 33.78052, -84.39384, 8],
+    [390000, 33.78048, -84.39341, 7],
+    [420000, 33.78050, -84.39298, 6],
+    [540000, 33.78051, -84.39255, 9],
+    [570000, 33.78049, -84.39212, 7],
+    [600000, 33.78050, -84.39169, 8],
+    [630000, 33.78053, -84.39126, 12],
+    [660000, 33.78049, -84.39083, 6],
+    [690000, 33.78050, -84.39040, 7],
+    [720000, 33.78048, -84.38997, 9],
+    [750000, 33.78014, -84.38999, 8],
+    [780000, 33.77978, -84.38996, 7],
+    [810000, 33.77942, -84.38998, 10],
+    [840000, 33.77906, -84.38995, 6],
+    [870000, 33.77870, -84.38997, 8],
+    [900000, 33.77834, -84.38999, 7],
+    [930000, 33.77798, -84.38996, 9],
+    [960000, 33.77762, -84.38998, 11],
+    [990000, 33.77726, -84.38995, 7],
+    [1020000, 33.77690, -84.38997, 8]
+  ],
+
+  "polls": [
+    [0, "spotify:track:sample0000000000004", 41000, true],
+    [30000, "spotify:track:sample0000000000004", 71000, true],
+    [60000, "spotify:track:sample0000000000004", 101000, true],
+    [90000, "spotify:track:sample0000000000004", 131000, true],
+    [120000, "spotify:track:sample0000000000004", 161000, true],
+    [150000, "spotify:track:sample0000000000004", 191000, true],
+    [180000, "spotify:track:sample0000000000004", 221000, true],
+    [210000, "spotify:track:sample0000000000001", 18000, true],
+    [240000, "spotify:track:sample0000000000001", 48000, true],
+    [270000, "spotify:track:sample0000000000001", 78000, true],
+    [300000, "spotify:track:sample0000000000001", 108000, true],
+    [330000, "spotify:track:sample0000000000001", 138000, true],
+    [360000, "spotify:track:sample0000000000001", 168000, true],
+    [390000, "spotify:track:sample0000000000001", 198000, true],
+    [420000, "spotify:track:sample0000000000001", 228000, true],
+    [540000, "spotify:track:sample0000000000002", 90000, true],
+    [570000, "spotify:track:sample0000000000003", 10000, true],
+    [600000, "spotify:track:sample0000000000003", 40000, true],
+    [630000, "spotify:track:sample0000000000003", 70000, true],
+    [660000, "spotify:track:sample0000000000003", 100000, true],
+    [690000, "spotify:track:sample0000000000003", 130000, true],
+    [720000, "spotify:track:sample0000000000003", 160000, true],
+    [750000, "spotify:track:sample0000000000003", 190000, true],
+    [780000, "spotify:track:sample0000000000003", 220000, true],
+    [810000, "spotify:track:sample0000000000003", 250000, true],
+    [840000, "spotify:track:sample0000000000003", 280000, true],
+    [870000, "spotify:track:sample0000000000001", 2849, true],
+    [900000, "spotify:track:sample0000000000001", 32849, true],
+    [930000, "spotify:track:sample0000000000001", 62849, true],
+    [960000, "spotify:track:sample0000000000001", 92849, true],
+    [990000, "spotify:track:sample0000000000001", 122849, true],
+    [1020000, "spotify:track:sample0000000000001", 152849, true]
+  ],
+
+  "tracks": {
+    "spotify:track:sample0000000000001": {
+      "name": "Nightcall",
+      "artists": ["Kavinsky"],
+      "durationMs": 258000,
+      "artUrl": null,
+      "colors": ["#D8342B", "#4A1210"]
+    },
+    "spotify:track:sample0000000000002": {
+      "name": "Redbone",
+      "artists": ["Childish Gambino"],
+      "durationMs": 326933,
+      "artUrl": null,
+      "colors": ["#B0561F", "#3E1D0C"]
+    },
+    "spotify:track:sample0000000000003": {
+      "name": "Nights",
+      "artists": ["Frank Ocean"],
+      "durationMs": 307151,
+      "artUrl": null,
+      "colors": ["#7FA05C", "#2E3D24"]
+    },
+    "spotify:track:sample0000000000004": {
+      "name": "Sunset Lover",
+      "artists": ["Petit Biscuit"],
+      "durationMs": 233000,
+      "artUrl": null,
+      "colors": ["#E58A6B", "#8A3F3A"]
+    }
+  },
+
+  "phrases": [
+    {
+      "uri": "spotify:track:sample0000000000004",
+      "start": 0,
+      "end": 192000,
+      "fromMs": 41000,
+      "toMs": 233000,
+      "ending": "completed",
+      "source": "poll"
+    },
+    {
+      "uri": "spotify:track:sample0000000000001",
+      "start": 192000,
+      "end": 450000,
+      "fromMs": 0,
+      "toMs": 258000,
+      "ending": "completed",
+      "source": "poll"
+    },
+    {
+      "uri": "spotify:track:sample0000000000002",
+      "start": 450000,
+      "end": 560000,
+      "fromMs": 0,
+      "toMs": 110000,
+      "ending": "skipped",
+      "source": "inferred"
+    },
+    {
+      "uri": "spotify:track:sample0000000000003",
+      "start": 560000,
+      "end": 867151,
+      "fromMs": 0,
+      "toMs": 307151,
+      "ending": "completed",
+      "source": "poll"
+    },
+    {
+      "uri": "spotify:track:sample0000000000001",
+      "start": 867151,
+      "end": 1020000,
+      "fromMs": 0,
+      "toMs": 152849,
+      "ending": "trip_ended",
+      "source": "poll"
+    }
+  ],
+
+  "rests": [
+    {
+      "at": 420000,
+      "durationMs": 120000,
+      "lat": 33.78050,
+      "lng": -84.39298
+    }
+  ],
+
+  "photos": [],
+
+  "weather": {
+    "tempF": 54,
+    "code": "clear",
+    "sunset": "20:02"
+  },
+
+  "privacy": {
+    "trimStartM": 200,
+    "trimEndM": 200
+  }
+}
